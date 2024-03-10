@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>signin</title>
+  <link rel="stylesheet" href="./css/register.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+
+<html lang="en"> 
+
+ <head> 
+
+  <meta charset="UTF-8"> 
+
+  <link rel="stylesheet" href="./css/register.css"> 
+
+ </head> 
+
+ <body> <!-- partial:index.partial.html --> 
+
+  <section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+    <div class="register"> 
+
+        <div class="content1"> 
+    
+         <h2>Register Now!</h2> 
+    
+         <div class="regform"> 
+    
+          <div class="inputBox1"> 
+    
+           <input type="text" required> <i>Username</i> 
+    
+          </div> 
+    
+          <div class="inputBox1"> 
+    
+           <input type="email" required> <i>Email</i> 
+    
+          </div> 
+          <div class="inputBox1"> 
+    
+            <input type="tel" required> <i>Phone</i> 
+     
+           </div> 
+           <div class="inputBox1 dropdown">
+            <input type="text" placeholder="Gender" id="selectedOption" >
+            <div class="dropdown-content">
+              <a href="#" onclick="selectOption('Option 1')">Male</a>
+              <a href="#" onclick="selectOption('Option 2')">Female</a>
+              <a href="#" onclick="selectOption('Option 3')">Prefer Not to say</a>
+              <a href="#" onclick="selectOption('Option 3')">Other</a>
+            </div>
+          </div>
+           <div class="inputBox1"> 
+    
+            <input type="number" required> <i>Age</i> 
+     
+           </div> 
+        <div class="inputBox1"> 
+    
+          <a href="register2.html"><input type="submit" value="Continue"> </a> 
+    
+          </div> 
+    
+         </div> 
+    
+        </div> 
+    
+       </div> 
+    
+      </section> <!-- partial --> 
+      <script>
+        document.addEventListener("click", function(event) {
+  var dropdowns = document.getElementsByClassName("dropdown-content");
+  var i;
+  for (i = 0; i < dropdowns.length; i++) {
+    var dropdownContent = dropdowns[i];
+    if (!event.target.closest('.dropdown')) {
+      dropdownContent.style.display = "none";
+    }
+  }
+});
+      </script>
+    
+</body>
+</html>
+</body>
+</html>
